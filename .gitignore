@@ -1,0 +1,17 @@
+node_modules
+vscode
+.idea
+*.iml
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.sql
+*.docx
+*.xlsx
+*.pptx
+*.pdf

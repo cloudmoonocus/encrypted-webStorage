@@ -1,0 +1,51 @@
+{
+  "name": "encrypted-storage",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Encryte LocalStorage and SessionStorage",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:types": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudmoonocus/encrypted-webStorage.git"
+  },
+  "keywords": [
+    "encryption",
+    "storage",
+    "localStorage",
+    "sessionStorage",
+    "web"
+  ],
+  "author": "f356660222@foxmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudmoonocus/encrypted-webStorage/issues"
+  },
+  "homepage": "https://github.com/cloudmoonocus/encrypted-webStorage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-typescript": "^11.1.3",
+    "@types/crypto-js": "^4.1.2",
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "rollup": "^3.29.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
